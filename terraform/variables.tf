@@ -13,7 +13,11 @@ variable "common_tags" {
 
 variable "env" {
     default = "dev"
+}
+
+variable "domain_name" {
   
+  default = "joindevops.store"
 }
 
 variable "app_version" {
